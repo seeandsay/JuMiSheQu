@@ -1,0 +1,36 @@
+# Java / Maven
+**/target/
+*.class
+*.jar
+
+# Node / Vue
+**/node_modules/
+**/dist/
+npm-debug.log*
+
+# Python
+**/__pycache__/
+*.py[cod]
+**/.venv/
+venv/
+
+# 密钥与本地配置（API key 绝不能提交）
+**/.env
+
+# AI 生成的海报（运行时产物）
+**/public/images/ai-posters/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Claude Code 工作区配置（技能等，非项目内容）
+.claude/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 日志
+*.log

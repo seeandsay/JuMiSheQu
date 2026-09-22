@@ -1,0 +1,5 @@
+fastapi>=0.110,<1
+uvicorn>=0.29
+openai>=1.40,<2
+pymysql>=1.1
+python-dotenv>=1.0

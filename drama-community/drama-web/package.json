@@ -1,0 +1,22 @@
+{
+  "name": "drama-web",
+  "version": "1.0.0",
+  "description": "剧迷社区 - 前端",
+  "scripts": {
+    "serve": "vue-cli-service serve --port 8081",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "vue": "^2.7.16",
+    "vue-router": "^3.6.5",
+    "vuex": "^3.6.2",
+    "element-ui": "^2.15.14",
+    "axios": "^1.11.0"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^5.0.8",
+    "@vue/cli-plugin-babel": "^5.0.8",
+    "vue-template-compiler": "^2.7.16"
+  }
+}
